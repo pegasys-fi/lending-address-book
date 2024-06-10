@@ -2347,6 +2347,26 @@ export const tokenlist = {
       },
     },
     {
+      chainId: 1,
+      address: '0x4c9EDD5852cd905f086C759E8383e09bff1E68B3',
+      name: 'USDe',
+      decimals: 18,
+      symbol: 'USDe',
+      tags: ['underlying'],
+    },
+    {
+      chainId: 1,
+      address: '0x4F5923Fc5FD4a93352581b38B7cD26943012DECF',
+      name: 'Aave Ethereum USDe',
+      decimals: 18,
+      symbol: 'aEthUSDe',
+      tags: ['aTokenV3', 'aaveV3'],
+      extensions: {
+        pool: '0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2',
+        underlying: '0x4c9EDD5852cd905f086C759E8383e09bff1E68B3',
+      },
+    },
+    {
       chainId: 137,
       address: '0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE',
       name: 'Aave Polygon DAI',
@@ -5859,6 +5879,6 @@ export const tokenlist = {
       },
     },
   ],
-  version: {major: 3, minor: 0, patch: 16},
-  timestamp: '2024-06-04T00:51:26.482Z',
+  version: {major: 3, minor: 0, patch: 17},
+  timestamp: '2024-06-10T20:46:22.274Z',
 };
